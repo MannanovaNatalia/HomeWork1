@@ -13,7 +13,7 @@ namespace CatModel
         /// <summary>
         /// Name value
         /// </summary>
-        private string _name;
+        private string _name { get; set; }
 
         /// <summary>
         /// Name - write first Property

@@ -4,8 +4,8 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
-using CatModel;
 using CatView;
+
 namespace ZooMagazine
 {
     class Program
@@ -21,9 +21,7 @@ namespace ZooMagazine
             }
             
             var CatV = new CatV(age);
-
             var menuEnter = true;
-
             while (menuEnter)
             {
                 //Console.Clear();
@@ -113,7 +111,7 @@ namespace ZooMagazine
 
             }
 
-            Console.ReadLine();
+           
 
 
         }
