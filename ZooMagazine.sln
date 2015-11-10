@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZooMagazine", "ZooMagazine\ZooMagazine.csproj", "{93DA17E9-86BF-4812-B35A-6EB69CD86DDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "CatColorModel\Model.csproj", "{C028E241-4074-498F-BB11-287FC284FF9E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "ClassLibrary1\Model.csproj", "{A06F6E6B-39F1-414F-BB43-5D66B00F14F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{93DA17E9-86BF-4812-B35A-6EB69CD86DDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93DA17E9-86BF-4812-B35A-6EB69CD86DDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93DA17E9-86BF-4812-B35A-6EB69CD86DDF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C028E241-4074-498F-BB11-287FC284FF9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C028E241-4074-498F-BB11-287FC284FF9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C028E241-4074-498F-BB11-287FC284FF9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C028E241-4074-498F-BB11-287FC284FF9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A06F6E6B-39F1-414F-BB43-5D66B00F14F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A06F6E6B-39F1-414F-BB43-5D66B00F14F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A06F6E6B-39F1-414F-BB43-5D66B00F14F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A06F6E6B-39F1-414F-BB43-5D66B00F14F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
