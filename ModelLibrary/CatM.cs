@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 
 
-namespace Model
+namespace ModelLibrary
 {
     public class CatM
     {
-       private string _name;
+        private string _name;
 
         public string Name
         {
@@ -20,7 +20,7 @@ namespace Model
                 if (string.IsNullOrEmpty(_name))
                     _name = value;
             }
-                  
+
         }
 
         /// <summary>
@@ -50,7 +50,7 @@ namespace Model
         /// Readwrite property - ЦВЕТ КОШКИ
         /// </summary>
         public CatColorM Color { get; set; }
-        
+
 
         /// <summary>
         /// Private field - ЗДОРОВЬЕ КОТАНА
@@ -81,11 +81,11 @@ namespace Model
                 var str = string.Empty;
                 str = (_health < 5) ? Color.SickColor : Color.HeathyColor;
                 return str;
-            } 
+            }
 
         }
 
     }
 
-    
+
 }

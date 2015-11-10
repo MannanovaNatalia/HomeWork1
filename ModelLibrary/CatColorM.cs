@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Model
+namespace ModelLibrary
 {
     public class CatColorM
     {
         /// <summary>
         /// Здоровый цвет кошки
         /// </summary>
-       public string HeathyColor { get; set; }
+        public string HeathyColor { get; set; }
         /// <summary>
         /// Не здоровый цвет кошки
         /// </summary>
